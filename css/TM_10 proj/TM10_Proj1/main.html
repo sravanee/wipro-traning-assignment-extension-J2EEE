@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="cs.css">
+<script type="text/javascript" src="sc.js"></script>
+<title>Insert title here</title>
+</head>
+<body bgcolor="purple">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<h3 id="demo" align="right"></h3>
+<script src="time.js"></script>
+<script>
+function myFunction() {
+  setTimeout(function(){ alert("3 minutes past"); }, 300000);
+}
+</script>
+<form class="form" method="post" name="f" onclick="return myFunction();" >
+<center><h2>SIGN UP</h2></center>
+First Name <input style="color:white;background-color:rgb(255, 128, 0);" type="text" name="fname" ><br><br>
+Last Name  <input style="color:white;background-color:rgb(255, 128, 0);" type="text" name="f1name"><br><br>
+Gender<input type="radio" name="r1">Male <input type="radio" name="r2">Female <input type="radio" name="r3"> Other<br><br>
+Email<input style="color:white;background-color:rgb(255, 128, 0);" type="email" name="mail"><br><br>
+Mobile No<input style="color:white;background-color:rgb(255, 128, 0);" name="ph" type="tel" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="fill in XXX-XXX-XXXX form" required><br><br>
+DOB<input style="color:white;background-color:rgb(255, 128, 0);" type="date"  placeholder="DD-MM-YYYY"  required > <br><br>
+Password<input style="color:white;background-color:rgb(255, 128, 0);" type="password" name="psd1" required pattern=".{6,20}" title=" password must 6 to 20 characters"><br> <br>
+Confirm Password<input style="color:white;background-color:rgb(255, 128, 0);" type="password" name="psd2" required pattern=".{6,20}"  title="password 6 to 20 characters"> <br><br>
+<button class="button1" onclick=" return fun();">Submit</button><input type="reset">
+</form>
+
+</body>
+</html>

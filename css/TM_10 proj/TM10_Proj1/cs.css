@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+.form{
+	background-color:grey;
+	width:400px;
+	margin-left:400px;
+	
+	
+}
+#demo{
+	color:red;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}

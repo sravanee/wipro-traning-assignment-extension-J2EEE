@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+.demo1{
+        padding: 0px;
+        font-size: 18px;
+        background: white;
+        margin-bottom: 15px;
+        height:120px;
+        width:100%;
+    }
+    
+    .img1{
+    height:110px;
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+    
+    }
+    #left{
+    float:left;  
+                background:#b19cd9; 
+                width:60%; 
+                height:150px;
+               text-align:center;
+               color:purple;
+    }
+    #right{
+    float:right; 
+                background:#b19cd9; 
+                width:40%; 
+                height:150px; 
+    }
+    .demo2{
+        background:#FFD700;
+        height:50px;
+    }
+    .btn btn-primary{
+    height:20px;
+    }
+    .btn {
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.demo-content{
+	background:white;
+	height:220px;
+	text-align:center;
+	
+}
+.rounded{
+	height:130px;
+	width:100px;
+}
+h4{
+	color:brown;
+}
+h6{
+	font-weight:bold;
+}
